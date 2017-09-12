@@ -1,10 +1,12 @@
 package date;
 
+import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class RunExample {
     public static void main(String[] args){
+
     Ticker tick = new Ticker("First");
     Ticker tick2 = new Ticker("Second");
     //tick.run();

@@ -10,16 +10,6 @@ public class UserRunner {
     private static Set x;
 
     public static void main(String[] args) throws IOException {
-        int vek = 32;
-        int yearnow = 26;
-        String year1 = Integer.toString(vek-1);
-        String year2 = Integer.toString(yearnow);
-        String yearS = year1+year2;
-        int year = Integer.parseInt(yearS);
-        //напишите тут ваш код
-        System.out.println("Сейчас " +  year + " год. Мой друг родился 8 лет назад");
-
-/*
         FileInputStream stream = new FileInputStream("c:\\zp.txt");
         int length = stream.available();
         byte [] data = new byte[length];
@@ -87,6 +77,7 @@ public class UserRunner {
         Iterator y = x.iterator();
         while (y.hasNext()){
             System.out.print(y.next() + " ");
-        }*/
+
+    }
     }
 }
